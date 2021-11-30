@@ -1,0 +1,129 @@
+abreviatura,nombre,ods,instrumental,media,desv_est
+pobr_extre,Población en situación de pobreza extrema monetaria,1,sÃ­,0.895,0.006
+pobr_mone,Población en situación de pobreza monetaria,1,sÃ­,0.786,0.036
+nece_basic,Población con al menos una necesidad básica insatisfecha,1,sÃ­,0.829,0.004
+prog-alime,Hogares pobres con al menos un miembro beneficiado de programas alimentarios,1\&2,sÃ­,0.475,0.055
+segu-pens,Proporción de población de 14 a más años de edad con seguro de pensión,1,sÃ­,0.424,0.009
+segur_socia,Población con acceso a seguro social de salud - EsSalud,1,sÃ­,0.371,0.006
+segur_integ,Población afiliada al seguro integral de salud,1,sÃ­,0.295,0.056
+hogar_servi,Proporción de la población que vive en hogares con acceso a los servicios básicos,1\&11,sÃ­,0.85,0.017
+vivi_prop,Viviendas particulares propias,1\&11,no,0.634,0.013
+titu_prop,Viviendas particulares propias con título de propiedad,1\&11,sÃ­,0.695,0.019
+nume_desa,"Número de personas muertas, desaparecidas y afectadas por desastres",1\&11,sÃ­,0.687,0.228
+pers_damn,Personas damnificadas por emergencia en LM por 100 mil personas,1\&11,sÃ­,0.9,0.0
+pers_afect,Personas afectadas por emergencia en LM por 100 mil personas,1\&11,sÃ­,0.9,0.0
+gasto_vulne,"Proporción del gasto público de capital destinado a sectores en beneficio de las mujeres, los pobres y los grupos vulnerables",1,sÃ­,0.128,0.01
+defi_calori,Porcentaje de población con déficit calórico,2,sÃ­,0.704,0.028
+desn_croni,Desnutrición crónica de niños/as menores de 5 años ,2,sÃ­,0.862,0.004
+desn_aguda,Tasa de desnutrición aguda entre las niñas y niños menores de 5 años,2,sÃ­,0.898,0.001
+prev_anemi,Prevalencia de anemia en niñas y niños de 6 a 59 meses de edad,2,sÃ­,0.302,0.012
+muer_direc,Número de muertes maternas directas,3,sÃ­,0.287,0.12
+muer_indire,Número de muertes maternas indirectas,3,sÃ­,0.462,0.157
+parto_pers,Porcentaje de partos con personal de salud calificada,3,sÃ­,0.896,0.002
+parto_inst,Porcentaje de partos institucionales ,3,sÃ­,0.881,0.009
+mort_neon,Mortalidad neonatal por cada 1000 nacidos vivos,3,sÃ­,0.892,0.001
+VIH_total,"Casos de infección por VIH notificados, según sexo, año de diagnóstico y departamento Total",3,no,0.248,0.108
+VIH_muje,"Casos de infección por VIH notificados, según sexo, año de diagnóstico y departamento mujer",3\&5,no,0.402,0.056
+inci_tuber,Incidencia de la tuberculosis por cada 100 mil habitantes,3,sÃ­,0.419,0.028
+caso_mala,Casos notificados de malaria,3,no,0.699,0.268
+inci_hepat,Incidencia de la hepatitis B por cada 100 mil habitantes,3,no,0.848,0.005
+trans_alcoh,Personas de 15 y más años de edad con trastorno por consumo de alcohol en los últimos 12 meses,3,no,0.859,0.01
+acci_vial,Tasa de fallecidos por accidentes de tránsito,3\&11,sÃ­,0.846,0.017
+plani_fami,Mujeres de 15 a 49 años de edad que practican la planificación familiar con métodos modernos,3\&5,sÃ­,0.547,0.031
+pobl_segur,Proporción de la población con seguro de salud -todo tipo,3,sÃ­,0.655,0.042
+segur_gasto,Proporción asignado en salud del gasto real promedio per cápita mensual,3,no,0.162,0.007
+perso_fuma,Proporción de personas de 15 y más años de edad que fuman diariamente,3,no,0.879,0.001
+habit_medi,Número de habitantes por cada médico,3,sÃ­,0.779,0.007
+habit_enfer,Número de habitantes por cada enfermera,3,sÃ­,0.611,0.016
+apre2p_compr,Alumnos que logran los aprendizajes del grado en comprensión de texto,4,sÃ­,0.507,0.047
+apre2p_mate,Alumnos que logran los aprendizajes del grado en matemáticas,4,sÃ­,0.298,0.052
+apre2s_compr,Alumnos que logran los aprendizajes del grado en comprensión de texto,4,sÃ­,0.286,0.006
+apre2s_mate,Alumnos que logran los aprendizajes del grado en matemáticas,4,sÃ­,0.241,0.045
+prom_estu,Promedio de años de estudio alcanzado por la población de 15 y más años de edad,4,sÃ­,0.189,0.003
+matr5_educ,"Tasa neta de matrícula, educación inicial",4,sÃ­,0.824,0.033
+asist5_educ,"Tasa total de asistencia, edades de 3 a 5 años",4,sÃ­,0.844,0.018
+doce_publ,Docentes del sistema educativo del sector público,4,sÃ­,0.609,0.015
+asist24_educ,Tasa de asistencia a educación superior de la población de 17 a 24 años de edad,4,sÃ­,0.353,0.018
+parid_docen,"Índice de paridad de género del porcentaje de docentes con título pedagógico, superior no universitaria",4\&5,no,0.559,0.073
+tasa_analfa,Tasa de analfabetismo,4,sÃ­,0.881,0.006
+escue_luz,Porcentaje de locales escolares públicos que cuentan con alumbrado eléctrico por red pública,4\&11,sÃ­,0.861,0.018
+escue_agua,Porcentaje de locales escolares públicos en que se obtiene agua directamente de la red pública dentro del local,4\&11,sÃ­,0.822,0.019
+escue_baño,Porcentaje de locales escolares públicos en que el baño o servicio higiénico está conectado a la red pública de desague dentro del local o a un pozo séptico,4\&11,sÃ­,0.859,0.014
+prima_inter,"Porcentaje de escuelas que cuentan con acceso a Internet, primaria",4,sÃ­,0.738,0.053
+secun_inter,"Porcentaje de escuelas que cuentan con acceso a Internet, secundaria",4,sÃ­,0.8,0.033
+prima_compu,"Relación alumnos-computadoras, primaria",4,sÃ­,0.822,0.007
+secun_compu,"Ratio alumnos por computadora, secundaria",4,sÃ­,0.843,0.006
+doce_supe,"Porcentaje de docentes nombrados en instituciones públicas, superior no universitaria",4,sÃ­,0.49,0.079
+doce_incia,"Número de alumnos por docente, inicial",4,sÃ­,0.128,0.023
+doce_secu,"Número de alumnos por docente, secundaria",4,sÃ­,0.112,0.006
+doce_prim,"Número de alumnos por docente, primaria ",4,sÃ­,0.157,0.025
+victi_femi,Víctimas de feminicidio,5\&16,sÃ­,0.166,0.03
+muje_viole,Mujeres de 15 a 49 años de edad que han sufrido violencia física infligida por el esposo o conviviente en los últimos 12 meses anteriores a la encuesta,5\&16,sÃ­,0.821,0.01
+trata_pers,"Casos intervenidos por el delito de trata de personas, según distrito fiscal",5\&16,sÃ­,0.558,0.252
+adole_emba,Madres adolescentes o embarazadas por primera vez,5,sÃ­,0.829,0.01
+muje_sinin,Mujeres y hombres sin ingresos propios mujeres,5,no,0.686,0.005
+muje_direc,Proporción de mujeres en cargos directivos,5,no,0.393,0.041
+muje_parl,Mujeres en el parlamento,5,no,0.369,0.007
+muje_alcal,Mujeres alcaldesas,5,no,0.143,0.035
+muje_regi,Regidoras elegidas por distritos,5,no,0.36,0.029
+info_muje,Tasa de informalidad de mujeres,5,no,0.409,0.019
+ingre_muje,Ingreso promedio real mensual proveniente del trabajo de mujeres,5,no,0.447,0.042
+muje_segur,Proporción de mujeres ocupadas con seguro de salud,5,sÃ­,0.656,0.048
+pobl_inter,Proporción de mujeres y hombres que usan Internet,5\&9,sÃ­,0.63,0.059
+muje_inter,Proporción de mujeres que usan Internet,5,sÃ­,0.605,0.062
+acces_agua,Proporción de población con acceso al servicio de agua,6\&11,sÃ­,0.868,0.011
+acces_sanea,Proporción de población con acceso al servicio de saneamiento,6\&11,sÃ­,0.853,0.013
+agua_trata,Generación de agua residual en Lima Metropolitana tratadas,6\&11,sÃ­,0.356,0.099
+agua_resid,Proporción de aguas residuales tratadas por las EPS,6\&11,sÃ­,0.662,0.171
+acces_elect,Proporción de la población que tiene acceso a la electricidad,7\&11,sÃ­,0.898,0.001
+ener_limp,Proporción de la población cuya fuente primaria de energía para cocinar consiste en combustible y tecnologías limpios,7\&11,sÃ­,0.888,0.007
+pbi_ocup,PBI a Valores a Precios Constantes de 2007,8,no,0.116,0.001
+cre_pbioc,Tasa de crecimiento anual del PBI real por persona ocupada,8,no,0.583,0.08
+tasa_ocup,Tasa de ocupación ,8,no,0.84,0.024
+tasa_info,Tasa de empleo informal,8,sÃ­,0.443,0.015
+pea_deso,Tasa de PEA desocupada,8,no,0.848,0.003
+info_noagr,Proporción de empleo informal en el sector no agrícola,8,sÃ­,0.444,0.016
+dese_urba,Tasa de desempleo en el área urbana,8,no,0.845,0.026
+ninis,"Proporción de jóvenes que no cursan estudios, no están empleados ni reciben capacitación",8,sÃ­,0.754,0.011
+traba_infan,"Proporción de niños, niñas y adolescents de 5 a 17 años en actividad económica",8,sÃ­,0.84,0.012
+manu_empl,Proporción del empleo del sector manufacturero en relación al empleo total,9,no,0.218,0.008
+peque_valor,Proporción correspondiente a las industrias a pequeña escala del valor añadido total,9,no,0.357,0.003
+peque_cred,Proporción de las industrias a pequeña escala que han obtenido un préstamo o una línea de crédito,9,sÃ­,0.219,0.005
+iyd_pbi,Porcentaje del gastos en investigación y desarrollo como proporción del PBI,9,sÃ­,0.101,0.0
+agre_tecno,Porcentaje del valor agregado de actividades de tecnología mediana y alta en el valor,9,sÃ­,0.216,0.005
+cgast_pobr,Tasa de crecimiento del gasto real promedio per cápita mensual del 40\% más pobre de la población,10,no,0.18,0.017
+pob_medi,Proporción de personas que viven por debajo del 50\% de la mediana de los ingresos,10,no,0.742,0.062
+pobl_malt,Proporción de población de 18 y más años de edad que señalan que en los últimos cinco años se han sentido maltratadas o han intentado discriminarlas,10\&16,no,0.743,0.026
+marg_urba,"Proporción de la población urbana que vive en barrios marginales, asentamientos improvisados o viviendas inadecuadas",11,sÃ­,0.673,0.009
+paq_auto,Parque automotor en circulación,11,no,0.502,0.048
+creci_pobl,Tasa de crecimiento promedio anual de la población censada,11,no,0.39,0.245
+dens_pobl,Densidad poblacional por años censal,11,sÃ­,0.67,0.169
+vivi_dest,Viviendas destruidas por emergencia en LM,11,sÃ­,0.674,0.231
+vivi_afec,Viviendas afectadas por emergencia en LM,11,sÃ­,0.711,0.23
+resid_soli,Residuos sólidos domiciliarios generados,11,sÃ­,0.584,0.037
+resid_contr,Residuos sólidos controlados en los rellenos sanitarios,11,sÃ­,0.418,0.042
+gasto_resid,Gasto municipal per cápita en gestión de residuos sólidos,11,sÃ­,0.542,0.109
+pm_2.5,Promedio de partículas inferiores a 2.5 micras y 10 micras en el aire del Cercado de Lima,11,sÃ­,0.585,0.086
+pm_10,Promedio de partículas inferiores a 2.5 micras y 10 micras en el aire del Cercado de Lima,11,sÃ­,0.543,0.07
+calid_aire,Porcentaje de la población que está satisfecha con la calidad del aire,11,sÃ­,0.2,0.018
+calid_ruido,Porcentaje de la población que está satisfecha con los niveles de ruido de la calle,11,sÃ­,0.183,0.022
+satis_vida,Porcentaje de la población que se siente satisfecho de vivir en Lima,11,sÃ­,0.388,0.041
+segur_lima,Porcentaje de la población que se siente segura viviendo en Lima,11\&16,sÃ­,0.189,0.021
+satis_verde,Porcentaje de la población que están satisfechos con la cantidad de áreas verdes y árboles,11,sÃ­,0.258,0.027
+satis_basu,Porcentaje de la población que está satisfecha con el sistema de recojo de basura,11,sÃ­,0.314,0.075
+satis_playa,Porcentaje de la población que está satisfecha con la calidad de las playas,11,sÃ­,0.187,0.022
+satis_espa,Porcentaje de la población que está satisfecha con el espacio público disponible,11,sÃ­,0.266,0.099
+area_verde,Área total dedicada a áreas verdes por persona,11,sÃ­,0.227,0.012
+acide_chor,Acidez media del mar medida en un conjunto convenido de estaciones de muestreo representativas Chorrillos,14,sÃ­,0.481,0.046
+acide_pucu,Acidez media del mar medida en un conjunto convenido de estaciones de muestreo representativas Pucusana,14,sÃ­,0.446,0.07
+supe_refor,Porcentaje de superficie por reforestar,15,sÃ­,0.89,0.0
+supe_degra,Proporción de la superficie de los ecosistemas degradados,15,sÃ­,0.898,0.0
+perd_vege,Pérdida de la cobertura vegetal en ecosistemas costeros y andinos,15,sÃ­,0.64,0.188
+tasa_victim,Tasa de victimización por personas,16,sÃ­,0.629,0.031
+tasa_robo,"Porcentaje de la población víctima de robo de dinero, cartera y celular en los últimos 12 meses",16,sÃ­,0.778,0.025
+intent_robo,"Porcentaje de la población víctima de intento de robo de dinero, cartera y celular en los últimos 12 meses",16,sÃ­,0.849,0.01
+tasa_homi,Tasa de homicidios dolosos por cada 100 mil habitantes,16,sÃ­,0.9,0.0
+segu_noche,Proporción de la población de 15 a más años de edad que se siente segura al caminar de noche en su zona o barrio,16,sÃ­,0.412,0.011
+tasa_delito,"Proporción de la población de 15 a más años de edad, víctima de algún hecho delictivo, que realizó la denuncia",16,sÃ­,0.22,0.022
+sin_conden,Proporción de detenidos que no han sido condenados en el conjunto de la población reclusa total,16,sÃ­,0.467,0.074
+pobl_soborn,"Proporción de hogares que han tenido por lo menos un contacto con un funcionario público y que pagaron un soborno a un funcionario público, o tuvieron la experiencia de que un funcionario público les pidiera que lo pagaran, durante los 12 meses anteriores",16,sÃ­,0.867,0.008

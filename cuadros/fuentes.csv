@@ -1,0 +1,129 @@
+abreviatura,fuente
+pobr_extre,ENAHO - INEI
+pobr_mone,ENAHO - INEI
+nece_basic,ENAHO - INEI
+prog-alime,ENAHO - INEI
+segu-pens,ODS-INEI
+segur_socia,ENAHO - INEI
+segur_integ,ENAHO - INEI
+hogar_servi,ODS-INEI
+vivi_prop,ENAHO - INEI
+titu_prop,ENAHO - INEI
+nume_desa,ODS-INEI
+pers_damn,"Compendio Estadístico del INDECI 2020. En la preparación, Respuesta y Rehabilitación de la GRD. III Información Estadística de Emergencia y Daños Periodo 2003 - 2019"
+pers_afect,"Compendio Estadístico del INDECI 2020. En la preparación, Respuesta y Rehabilitación de la GRD. III Información Estadística de Emergencia y Daños Periodo 2003 - 2019"
+gasto_vulne,MEF. INEI
+defi_calori,ENAHO - INEI
+desn_croni,ENAHO - INEI
+desn_aguda,ODS-INEI
+prev_anemi,ENAHO - INEI
+muer_direc,Drección General de Epidemiología - MINSA
+muer_indire,Drección General de Epidemiología - MINSA
+parto_pers,ENDES INEI
+parto_inst,ENDES INEI
+mort_neon,ENDES INEI
+VIH_total,Drección General de Epidemiología - MINSA
+VIH_muje,Drección General de Epidemiología - MINSA
+inci_tuber,ODS - INEI
+caso_mala,Drección General de Epidemiología - MINSA
+inci_hepat,ODS - INEI
+trans_alcoh,ENDES INEI
+acci_vial,ODS - INEI
+plani_fami,ENDES INEI
+pobl_segur,ODS - INEI
+segur_gasto,ENAHO - INEI
+perso_fuma,ENDES INEI
+habit_medi,ENAHO - INEI
+habit_enfer,ENAHO - INEI
+apre2p_compr,Escale - MINEDU
+apre2p_mate,Escale - MINEDU
+apre2s_compr,Escale - MINEDU
+apre2s_mate,Escale - MINEDU
+prom_estu,ENAHO - INEI
+matr5_educ,Escale - MINEDU
+asist5_educ,Escale - MINEDU
+doce_publ,Escale - MINEDU
+asist24_educ,ODS - INEI
+parid_docen,Escale - MINEDU
+tasa_analfa,Escale - MINEDU
+escue_luz,Escale - MINEDU
+escue_agua,Escale - MINEDU
+escue_baño,Escale - MINEDU
+prima_inter,Escale - MINEDU
+secun_inter,Escale - MINEDU
+prima_compu,Escale - MINEDU
+secun_compu,Escale - MINEDU
+doce_supe,Escale - MINEDU
+doce_incia,Escale - MINEDU
+doce_secu,Escale - MINEDU
+doce_prim,Escale - MINEDU
+victi_femi,"Ministerio Público, Ministerio de la Mujer y Poblaciones Vulnerables, Policía Nacional del Perú e Instituto Nacional de Estadística e Informática. Tomado INEI"
+muje_viole,ENDES - INEI
+trata_pers,Ministerio Público - Sistema de Información de Apoyo al Trabajo Fiscal y el Sistema de Gestión Fiscal
+adole_emba,ENDES INEI
+muje_sinin,ENAHO - INEI
+muje_direc,ODS - INEI
+muje_parl,Jurado Nacional de Elecciones
+muje_alcal,Jurado Nacional de Elecciones
+muje_regi,Jurado Nacional de Elecciones
+info_muje,ENAHO - INEI
+ingre_muje,ENAHO - INEI
+muje_segur,ENAHO - INEI
+pobl_inter,ENAHO - INEI
+muje_inter,ENAHO - INEI
+acces_agua,ENAHO - INEI
+acces_sanea,ENAHO - INEI
+agua_trata,Servicio de Agua Potable y Alcantarillado de Lima - Gerencia de Gestión de Aguas Residuales
+agua_resid,SINIA - MINAM
+acces_elect,ODS - INEI
+ener_limp,ODS - INEI
+pbi_ocup,INEI
+cre_pbioc,ODS - INEI
+tasa_ocup,ENAHO - INEI
+tasa_info,ENAHO - INEI
+pea_deso,Encuesta permanente de trabajo
+info_noagr,ODS - INEI
+dese_urba,ODS - INEI
+ninis,ODS - INEI
+traba_infan,ODS - INEI
+manu_empl,ENAHO - INEI
+peque_valor,Sistema de monitoreo y seguimiento de los indicadores de los ODS
+peque_cred,Superintendencia de Banca y Seguros y AFP - INEI
+iyd_pbi,Ministerio de Economía y Finanzas. INEi
+agre_tecno,INEI
+cgast_pobr,ODS - INEI
+pob_medi,ODS - INEI
+pobl_malt,ODS - INEI
+marg_urba,ENAHO - INEI
+paq_auto,MTC - Compendio Estadístico 2020 INEI
+creci_pobl,"Censos Nacionales de Población y Vivienda 1940, 1961, 1972, 1981, 1993, 2007 y 2017. INEI"
+dens_pobl,"Censos Nacionales de Población y Vivienda 1940, 1961, 1972, 1981, 1993, 2007 y 2017. INEI"
+vivi_dest,"Compendio Estadístico del INDECI 2020. En la preparación, Respuesta y Rehabilitación de la GRD. III Información Estadística de Emergencia y Daños Periodo 2003 - 2019"
+vivi_afec,"Compendio Estadístico del INDECI 2020. En la preparación, Respuesta y Rehabilitación de la GRD. III Información Estadística de Emergencia y Daños Periodo 2003 - 2019"
+resid_soli,MML - Compendio Estadístico 2020 INEI
+resid_contr,MML - Compendio Estadístico 2020 INEI
+gasto_resid,SINIA - MINAM
+pm_2.5,ODS - INEI
+pm_10,ODS - INEI
+calid_aire,Lima Como Vamos
+calid_ruido,Lima Como Vamos
+satis_vida,Lima Como Vamos
+segur_lima,Lima Como Vamos
+satis_verde,Lima Como Vamos
+satis_basu,Lima Como Vamos
+satis_playa,Lima Como Vamos
+satis_espa,Lima Como Vamos
+area_verde,RENAMU-INEI
+acide_chor,ODS - INEI
+acide_pucu,ODS - INEI
+supe_refor,El ratio es trabajado por el equipo PNUD. Superficie en hectáreas del departamento de Lima: 34801590
+supe_degra,El ratio es trabajado por el equipo PNUD. Superficie en hectáreas del departamento de Lima: 34801590
+perd_vege, MINAM - Dirección General de Ordenamiento Territorial Ambiental - DGOTA / SINIA
+tasa_victim,ENAPRES - INEI
+tasa_robo,ENAPRES - INEI
+intent_robo,ENAPRES - INEI
+tasa_homi,ODS - INEI
+segu_noche,ODS - INEI
+tasa_delito,ODS - INEI
+sin_conden,ODS - INEI
+pobl_soborn,ODS - INEI
