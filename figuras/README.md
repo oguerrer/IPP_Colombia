@@ -1,4 +1,4 @@
-# <p align="center">Inferencia de Prioridades de Política para Lima, Perú</p>
+# <p align="center">Inferencia de Prioridades de Política para Colombia</p>
 
 Carpeta con las figuras del reporte en formato PDF.
 
