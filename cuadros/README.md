@@ -1,6 +1,6 @@
-# <p align="center">Inferencia de Prioridades de Política para Lima, Perú</p>
+# <p align="center">Inferencia de Prioridades de Política para Colombia</p>
 
-Carpeta con los cuadros del reporte en formato CSV.
+Carpeta con los cuadros del reporte en formato Excel.
 
 <br/>
 
