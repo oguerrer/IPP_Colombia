@@ -16,7 +16,7 @@ import ppi
 def run_ppi_parallel(I0, alphas, betas, A, R, qm, rl, Bs, B_dict, T, scalar, frontier=None):
     outputs = ppi.run_ppi(I0=I0, alphas=alphas, betas=betas, A=A, R=R, qm=qm, rl=rl, 
                       Bs=Bs, B_dict=B_dict, T=T, scalar=scalar, frontier=frontier)
-    tsI, tsC, tsF, tsP, tsD, tsS, times, H, gammas = outputs
+    tsI, tsC, tsF, tsP, tsS, gammas = outputs
     return (tsI[:,-1], gammas)
 
 
