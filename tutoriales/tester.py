@@ -18,17 +18,11 @@ with open('ppi.py', 'w') as f:
     f.write(r.text)
 import ppi
 
-url = 'https://raw.githubusercontent.com/oguerrer/IPP_Colombia/main/tutoriales/functions.py'
-r = requests.get(url)
-with open('functions.py', 'w') as f:
-    f.write(r.text)
-from functions import *
-
 url = 'https://raw.githubusercontent.com/oguerrer/IPP_Colombia/main/tutoriales/calibrator.py'
 r = requests.get(url)
 with open('calibrator.py', 'w') as f:
     f.write(r.text)
-import calibrator
+from calibrator import *
 
 
 
