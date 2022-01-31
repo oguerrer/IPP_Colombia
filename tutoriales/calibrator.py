@@ -114,7 +114,7 @@ def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, Imax, success_rates,
             sample_size += increment
             increment += 10
         
-        print(mean_abs_error, sample_size, counter,  abs_normed_errrors.max(), np.min(GoF_alpha.tolist()+GoF_beta.tolist()))
+        print(counter, np.min(GoF_alpha.tolist()), np.min(GoF_beta.tolist()))
     
     print('computing final estimate...')
     print()
