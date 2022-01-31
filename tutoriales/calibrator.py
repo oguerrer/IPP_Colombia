@@ -97,7 +97,7 @@ def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, Imax, success_rates,
         errors = np.array(compute_error(I0=I0, alphas=alphas, betas=betas, A=A, R=R, qm=qm, rl=rl,  
                                 Bs=Bs, B_dict=B_dict, T=T, scalar=scalar, IF=IF, Imax=Imax, success_rates=success_rates, 
                                 sample_size=sample_size, parallel_processes=parallel_processes))
-        normed_errors = errors/np.array((IF-I0).tolist() + success_emp.tolist())
+        normed_errors = errors/np.array((IF-I0).tolist() + success_rates.tolist())
         abs_normed_errrors = np.abs(normed_errors)
         
         mean_abs_error = np.mean(np.abs(errors))
@@ -108,7 +108,7 @@ def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, Imax, success_rates,
         errors_alpha = errors[0:N]
         errors_beta = errors[N::]
         GoF_alpha = 1 - np.abs(errors_alpha)/(IF-I0)
-        GoF_beta = 1 - np.abs(errors_beta)/success_emp
+        GoF_beta = 1 - np.abs(errors_beta)/success_rates
         
         if counter > 20:
             sample_size += increment
@@ -128,7 +128,7 @@ def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, Imax, success_rates,
     errors_beta = errors_est[N::]
     
     GoF_alpha = 1 - np.abs(errors_alpha)/(IF-I0)
-    GoF_beta = 1 - np.abs(errors_beta)/success_emp
+    GoF_beta = 1 - np.abs(errors_beta)/success_rates
     
     dfc = pd.DataFrame([[alphas_est[i], betas_est[i], T, num_years, errors_alpha[i]/scalar, errors_beta[i], scalar, min_value, GoF_alpha[i], GoF_beta[i]] \
                     if i==0 else [alphas_est[i], betas_est[i], np.nan, np.nan, errors_alpha[i]/scalar, errors_beta[i], np.nan, np.nan, GoF_alpha[i], GoF_beta[i]] \
