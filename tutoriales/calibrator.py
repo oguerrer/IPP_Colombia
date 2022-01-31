@@ -45,7 +45,7 @@ def fobj2(I0, alphas, betas, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_e
 
 
 
-def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_emp, num_years, max_steps, min_value, tolerance=.9, parallel_processes=2):
+def calibrate(I0, alphas, betas, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_emp, min_value, tolerance=.9, parallel_processes=2):
 
     # Perform calibration
     N = len(I0)
@@ -101,10 +101,10 @@ def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_emp, num_yea
     GoF_alpha = 1 - np.abs(errors_alpha)/(IF-I0)
     GoF_beta = 1 - np.abs(errors_beta)/success_emp
     
-    dfc = pd.DataFrame([[alphas_est[i], betas_est[i], max_steps, num_years, errors_alpha[i]/scalar, errors_beta[i], scalar, min_value, GoF_alpha[i], GoF_beta[i]] \
+    dfc = pd.DataFrame([[alphas_est[i], betas_est[i], errors_alpha[i]/scalar, errors_beta[i], scalar, min_value, GoF_alpha[i], GoF_beta[i]] \
                         if i==0 else [alphas_est[i], betas_est[i], np.nan, np.nan, errors_alpha[i]/scalar, errors_beta[i], np.nan, np.nan, GoF_alpha[i], GoF_beta[i]] \
                         for i in range(N)], 
-                        columns=['alphas', 'beta', 'steps', 'years', 'error_alpha', 'error_beta', 'scalar', 'min_value', 'GoF_alpha', 'GoF_beta'])
+                        columns=['alphas', 'beta', 'error_alpha', 'error_beta', 'scalar', 'min_value', 'GoF_alpha', 'GoF_beta'])
     return dfc
     
 
