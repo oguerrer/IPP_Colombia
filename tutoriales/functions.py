@@ -16,7 +16,7 @@ from joblib import Parallel, delayed
 
 home =  os.getcwd()[:-4]
 os.chdir(home+'/code/')
-import ppi
+#import ppi
 
 
 
