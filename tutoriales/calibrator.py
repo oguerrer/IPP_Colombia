@@ -23,19 +23,12 @@ def run_ppi_parallel(I0, alphas, betas, A, R, qm, rl, Bs, B_dict, T, scalar, fro
 
 def fobj2(I0, alphas, betas, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_emp, sample_size, parallel_processes):
     sols = np.array(Parallel(n_jobs=parallel_processes, verbose=0)(delayed(run_ppi_parallel)\
-            (I0=I0, alphas=alphas, betas=betas, A=A, R=R, qm=qm, rl=rl, 
-             Bs=Bs, B_dict=B_dict, T=T, scalar=scalar) for itera in range(sample_size)))
-    FIs = []
-    gammas = []
-    for sol in sols:
-        FIs.append( sol[0] )
-        for gamma in sol[1]:
-            gammas.append( gamma )
-
-    mean_indis = np.mean(FIs, axis=0)
-    error_alpha = IF - mean_indis
-    mean_gamma = np.mean(gammas, axis=0)
-    error_beta = success_emp - mean_gamma
+            (I0=I0, alphas=alphas, betas=betas, A=A, R=R, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T, scalar=scalar) for itera in range(sample_size)))
+    tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
+    I_hat = np.mean(tsI, axis=0)[:,-1]
+    gamma_hat = np.mean(tsG, axis=0).mean(axis=1)
+    error_alpha = IF - I_hat
+    error_beta = success_emp - gamma_hat
 
     return error_alpha.tolist() + error_beta.tolist()
 
