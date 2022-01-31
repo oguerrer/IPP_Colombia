@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-"""Economic Complexity and Sustainable Development: 
-    A Computational Framework for Policy Priorities
-
-Helper functions
-
-Authors: Omar A. Guerrero & Gonzalo Castañeda
-Written in Pyhton 3.7
-
-
-"""
 import os
 import numpy as np
 from joblib import Parallel, delayed
