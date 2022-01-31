@@ -45,7 +45,7 @@ def fobj2(I0, alphas, betas, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_e
 
 
 
-def calibrate(I0, alphas, betas, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_emp, num_years, min_value, tolerance=.9, parallel_processes=2):
+def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_emp, num_years, min_value, tolerance=.9, parallel_processes=2):
 
     # Perform calibration
     N = len(I0)
