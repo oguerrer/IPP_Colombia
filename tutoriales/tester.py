@@ -26,6 +26,8 @@ from calibrator import *
 
 
 
+
+
 df = pd.read_csv('https://raw.githubusercontent.com/oguerrer/IPP_Colombia/main/data/modeling/indicators_sample_final.csv')
 colYears = [col for col in df.columns if str(col).isnumeric()]
 
@@ -79,7 +81,7 @@ estadoDeDerecho = np.ones(n)*dft.EstadoDeDerecho.values[0]
 
 parallel_processes = 2 # número de procesos paralelos
 tolerance = .1 # tolerancia del error promedio
-parametros_calibrados = calibrator.calibrate(I0=I0, A=A, R=R, qm=monitoreo, rl=estadoDeDerecho,  
+parametros_calibrados = calibrate(I0=I0, A=A, R=R, qm=monitoreo, rl=estadoDeDerecho,  
     Bs=Bs, B_dict=B_dict, T=T, scalar=scalar, IF=IF, success_emp=success_emp, num_years=num_years,
     min_value=min_value, tolerance=.9, parallel_processes=2)
 

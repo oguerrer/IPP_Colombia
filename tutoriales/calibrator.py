@@ -95,7 +95,7 @@ def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_emp, num_yea
         betas = params[N::]
         
         errors = np.array(compute_error(I0=I0, alphas=alphas, betas=betas, A=A, R=R, qm=qm, rl=rl,  
-                                Bs=Bs, B_dict=B_dict, T=T, scalar=scalar, IF=IF, success_emp=success_emp, 
+                                Bs=Bs, B_dict=B_dict, T=T, scalar=scalar, IF=IF, success_rates=success_emp, 
                                 sample_size=sample_size, parallel_processes=parallel_processes))
         normed_errors = errors/np.array((IF-I0).tolist() + success_emp.tolist())
         abs_normed_errrors = np.abs(normed_errors)
@@ -122,7 +122,7 @@ def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, success_emp, num_yea
     alphas_est = params[0:N]
     betas_est = params[N::]
     errors_est = np.array(compute_error(I0=I0, alphas=alphas_est, betas=betas_est, A=A, R=R, qm=qm, rl=rl,  
-                                Bs=Bs, B_dict=B_dict, T=T, scalar=scalar, IF=IF, success_emp=success_emp, 
+                                Bs=Bs, B_dict=B_dict, T=T, scalar=scalar, IF=IF, success_rates=success_emp, 
                                 sample_size=sample_size, parallel_processes=parallel_processes))
     errors_alpha = errors_est[0:N]
     errors_beta = errors_est[N::]
