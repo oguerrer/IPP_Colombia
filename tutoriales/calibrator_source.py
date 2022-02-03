@@ -110,9 +110,8 @@ def calibrate(I0, A, R, qm, rl,  Bs, B_dict, T, scalar, IF, Imax, success_rates,
         GoF_alpha = 1 - np.abs(errors_alpha)/(IF-I0)
         GoF_beta = 1 - np.abs(errors_beta)/success_rates
         
-        if counter > 20:
+        if counter > 50:
             sample_size += increment
-            increment += 10
         
         print( counter, np.min(GoF_alpha.tolist()), np.min(GoF_beta.tolist()) )
     
