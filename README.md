@@ -19,5 +19,5 @@ Los contenidos de las carpetas son los siguientes:
 * **code**: Los scripts necesarios para reproducir los resultados presentados en el reporte.
 * **cuadros**: Los cuadros del reporte en formato Excel.
 * **data**: Las bases de datos utilizadas para el análisis del reporte. Éstas incluyen las bases originales creadas por el equipo del PNUD, bases internacionales, datos preprocesados, datos limpios (finales), y datos generados por las simulaciones de IPP.
-* **figuras**: Las firas del reporte en formato PDF.
+* **figuras**: Las figuras del reporte en formato PDF.
 
